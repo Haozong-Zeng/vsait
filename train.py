@@ -68,12 +68,13 @@ def main(args):
         enable_checkpointing=True,
         callbacks=callbacks,
         default_root_dir=output_dir,
-        weights_save_path=output_dir,
-        check_val_every_n_epoch=args.check_val_every_n_epoch if check_val_epoch else 1,
+        enable_model_summary=True,
+        check_val_every_n_epoch=None,
         val_check_interval=args.val_check_interval if not check_val_epoch else None,
         limit_val_batches=args.limit_val_batches,
         max_steps=args.max_steps,
-        gpus=args.num_gpus,
+        accelerator="gpu", 
+        devices=1
     )
     trainer.fit(solver, ckpt_path=args.resume_from_checkpoint)
 
