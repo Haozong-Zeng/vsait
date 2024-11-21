@@ -1,4 +1,4 @@
-## This is a modified version of the following work:
+## This is a modified folk of:
 
 # VSAIT: Unpaired Image Translation via Vector Symbolic Architectures
 
