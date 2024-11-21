@@ -1,6 +1,6 @@
-# VSAIT: Unpaired Image Translation via Vector Symbolic Architectures
-
 ## This is a modified version of the following work:
+
+# VSAIT: Unpaired Image Translation via Vector Symbolic Architectures
 
 [Justin Theiss](https://www.linkedin.com/in/justin-d-theiss), [Jay Leverett](https://www.linkedin.com/in/jay-leverett), [Daeil Kim](https://www.linkedin.com/in/daeil), [Aayush Prakash](https://ca.linkedin.com/in/aayush-prakash-0798142b)<br>
 In ECCV 2022 (Oral).
