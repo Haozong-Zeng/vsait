@@ -21,6 +21,7 @@ cd vsait/
 Install dependencies via conda:
 ```bash
 conda env create -f environment.yml
+conda activate vsait
 ```
 
 ### Dataset Preparation
