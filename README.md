@@ -14,7 +14,7 @@ Source PyMouse Lifter                        |  PyMouse Lifter Translated with V
 ### Installation
 Clone this repo:
 ```bash
-git clone https://github.com/facebookresearch/vsait.git
+git clone https://github.com/Haozong-Zeng/vsait.git
 cd vsait/
 ```
 
