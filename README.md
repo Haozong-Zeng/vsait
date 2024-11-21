@@ -1,9 +1,13 @@
 # VSAIT: Unpaired Image Translation via Vector Symbolic Architectures
 
+## This is a modified version of the following work:
+
 [Justin Theiss](https://www.linkedin.com/in/justin-d-theiss), [Jay Leverett](https://www.linkedin.com/in/jay-leverett), [Daeil Kim](https://www.linkedin.com/in/daeil), [Aayush Prakash](https://ca.linkedin.com/in/aayush-prakash-0798142b)<br>
 In ECCV 2022 (Oral).
 
-Source GTA5                        |  GTA5 Translated with VSAIT
+## For replication of the style transferation in PyMouse Lifter. Thanks to the original authors for their excellent work.
+
+Source PyMouse Lifter                        |  PyMouse Lifter Translated with VSAIT
 :---------------------------------:|:-------------------------:
 ![Source GTA](./docs/imgs/gta.gif) | ![Translated GTA](./docs/imgs/vsait_gta2city.gif)
 
@@ -14,9 +18,9 @@ git clone https://github.com/facebookresearch/vsait.git
 cd vsait/
 ```
 
-Install dependencies via pip:
+Install dependencies via conda:
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
 ### Dataset Preparation
